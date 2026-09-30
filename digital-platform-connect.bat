@@ -42,7 +42,7 @@ goto check
 
 :open
 echo Opening Digital Platform in browser...
-start "" "%URL%register/"
+start "" "%URL%app-acc/register"
 exit /b 0
 
 :fail
